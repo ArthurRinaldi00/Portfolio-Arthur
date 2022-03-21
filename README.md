@@ -126,9 +126,11 @@ Também envia para o email do usuario informações sobre o quão interessantes 
 Aqui segue uma amostra da interface usada no projeto, nela é possivel filtrar os graficos por mês e por dia.
 No gráfico existem 3 gráficos, variação de ações, média de volume por mês e média de valor mensal por ano.
 todos esses dados sendo retirados do banco de dados.
+
+
+## - Hard Skills: Python, Power bi, MySql, Scrum.
  
- 
- ##  - Aprendizados efetivos: 
+ ##  - Soft Skills: 
 Foi a introdução a metodologia agil introduzindo dailys, reuniões de planning e sprints.
 Fora isso também foi introduzido varias opções para o desenvolvimento, sendo elas utilizar python junto da biblioteca selenium.
 Outro grande aprendizado foi a utilização do power bi para interface, utilizando dessa ferramenta foi possivel poupar muito tempo de desenvolvimento pois os dados dos graficos eram pegos direto do banco.
@@ -319,7 +321,9 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
 Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
 <img src="./docs/tela funcionario.PNG" />
 
-## Aprendizados efetivos: 
+## Soft Skill: 
+
+## Hard Skill: 
 Como aprendizado efetivo é possivel destacar pontos como utilização de html como foi mostrado no tópico acima.
 Fora isso utilização foi possivel aprender sobre a manipulação de dados de excel dentro de um projeto, contando as linhas e colunas e depois salvando no banco de dados.
 
@@ -367,7 +371,10 @@ Aqui segue a modelagem utilizada para o projeto.
 Nele é possivel notar o calculo por trás do score.
 
  
- ##  - Aprendizados efetivos: 
+ ## Soft Skill: 
+
+## Hard Skill: 
+ 
 Como aprendizado efetivo é possivel pontuar a criação do modelo do banco, nele nós ja tinhamos um dataset enviado pelo cliente e aproveitamos para adaptalo para o objetivo do projeto, além disso também foi um projeto onde foi possivel aprender muito sobre calculo dentro de um projeto e formas de manipular os dados que estão vindo  do banco.
 
 
@@ -527,4 +534,9 @@ def home():
              print(jsn['_id'])
 
 ´´´
+
+## Soft Skill: 
+
+## Hard Skill: 
+
 
