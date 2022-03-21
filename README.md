@@ -122,7 +122,7 @@ while (True):
 O classificação.py tinha a função de fazer a coleta de dados do site, armazenar esses dados coletados.
 Também envia para o email do usuario informações sobre o quão interessantes as informações estão para o usuário.
 
-<img src="./resources/powerbi.png" />
+<img src="./imgs/powerbi.png" />
 Aqui segue uma amostra da interface usada no projeto, nela é possivel filtrar os graficos por mês e por dia.
 No gráfico existem 3 gráficos, variação de ações, média de volume por mês e média de valor mensal por ano.
 todos esses dados sendo retirados do banco de dados.
@@ -319,7 +319,7 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
 </html>
 ```
 Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
-<img src="./docs/tela funcionario.PNG" />
+<img src="./imgs/tela funcionario.PNG" />
 
 ## Soft Skill: 
 
@@ -350,7 +350,7 @@ Nela criamos uma interface onde o usuario pode fazer seu cadastro sendo ele um p
  
 ### Modelo do Banco
 
-<img src="./Documentação/modelagem.png" />
+<img src="./imgs/modelagem.png" />
 Aqui segue a modelagem utilizada para o projeto.
 
 ### Calculo de score para pessoa fisica
