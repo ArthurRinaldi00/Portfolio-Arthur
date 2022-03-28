@@ -3,9 +3,11 @@
 # Ola sou Arthur
 Estudante de Banco de Dados, escritor online e estas são minhas experiências na Fatec de Sâo José dos Campos.
 
-# Meus Projetos
-  Em 2019-2 trabalhei no projeto da API, no qual a propria instituição passou os requisitos de criar um webbot.
+# Meus Projetos.
+
+# Em 2019-2
 ## Descrição:
+trabalhei no projeto da API, no qual a propria instituição passou os requisitos de criar um webbot.
 O webotbot "black mamba" tinha como seu objetivo fazer a busca de variação de uma ação no mercado financeiro, afim de entregar ao usuario um momento oportuno para ser feita a compra.
 Para isso o bot irá capturar os dados em tempo real do valor de uma ação e comparar com os históricos de variações dessa mesma ação em outros períodos em conjunto com uma mapeamento das notícias que podem influenciar o valor da ação.
 O sistema também possuia uma interface vinculada ao power bi, para tornar de forma mais visivel para o usuario como anda a variação da ação e seu historico, alem disso também existia a opção de fazer login pelo telegram.
@@ -136,7 +138,7 @@ Fora isso também foi introduzido varias opções para o desenvolvimento, sendo 
 Outro grande aprendizado foi a utilização do power bi para interface, utilizando dessa ferramenta foi possivel poupar muito tempo de desenvolvimento pois os dados dos graficos eram pegos direto do banco.
 
 ## 
-Em 2020-1 
+# Em 2020-1 
 
 ## Descrição
 A proposta do projeto é criar uma interface que permita o usuário cadastrar todos os aspectos de seu ambiente de desenvolvimento (pessoas, projetos, tarefas) fazendo com que por meio de uma interface pratica e interativa o usuário consiga elaborar e analisar cenários referente ao planejamento de seu dia-a-dia, orquestrando pessoas, projetos e horas disponíveis de desenvolvimento para potencializar suas entregas.   
@@ -328,7 +330,7 @@ Como aprendizado efetivo é possivel destacar pontos como utilização de html c
 Fora isso utilização foi possivel aprender sobre a manipulação de dados de excel dentro de um projeto, contando as linhas e colunas e depois salvando no banco de dados.
 
 
-Em 2020-2
+# Em 2020-2
 
 ## Descrição:
 Score wizard foi uma aplicação criada com o intuito de ajudar de forma mais pratica e visual de checar sua pontuação de crédito dentro do spc.
@@ -369,18 +371,16 @@ Aqui segue a modelagem utilizada para o projeto.
     }
 ```
 Nele é possivel notar o calculo por trás do score.
-
  
- ## Soft Skill: 
+## Soft Skill: 
 
-## Hard Skill: 
- 
+## Hard Skill:  
 Como aprendizado efetivo é possivel pontuar a criação do modelo do banco, nele nós ja tinhamos um dataset enviado pelo cliente e aproveitamos para adaptalo para o objetivo do projeto, além disso também foi um projeto onde foi possivel aprender muito sobre calculo dentro de um projeto e formas de manipular os dados que estão vindo  do banco.
 
 
-Em 2021-1
+# Em 2021-1
 
-## Descrição: escreva uma descrição detalhada do projeto sob o seu ponto de vista.
+## Descrição: 
 O setor de RH precisa de uma solução parametrizável que combine diversos critérios, para
 busca de candidatos em diferentes vagas com diferentes recrutadores numa proposta de
 processo eficiente para contratação e evasão de funcionários, reduzindo custos e
@@ -389,10 +389,13 @@ aumentando a satisfação com alocações mais adequadas.
 ## Proposta do projeto
 Nossa proposta é desenvolver um sistema para a otimização e que facilite o processo de contratação de novos colaboradores , respeitando os requisitos, visando a rapidez e agilidade no processo. Para que esses objetivos sejam atingidos, utilizaremos uma um SGBD orientado a documentos (MongoDB), visando que as estruturas de currículos e vagas são maleáveis e se aproveitam bem da estrutura de documento usada, além de questões de desempenho e funcionalidades que podem ser aproveitadas. 
 
-## Tecnologias: não cite apenas as tecnologias, mas descreva o contexto em que foram utilizadas, por que foram escolhidas e pontos fortes de adequação com o projeto e etc
-<a name="tecnologia"></a>
-## Tecnologias Utilizadas:
-![Pythaon](/Documentos/TecnoGit.png)
+## Tecnologias: 
+Python 
+django
+mongo db
+postman
+Visual studio code
+
 
 ## Contribuições individuais:
 ```mongodb
@@ -540,7 +543,7 @@ def home():
 
 ## Hard Skill: 
 
-Em 2021-1
+# Em 2021-2
 
 ## Tecnologias Utilizadas
 ## Contribuições Pessoais
@@ -548,3 +551,10 @@ Em 2021-1
 ## Soft Skills
 
 
+
+# Em 2022-1
+
+## Tecnologias Utilizadas
+## Contribuições Pessoais
+## Hard Skills
+## Soft Skills
