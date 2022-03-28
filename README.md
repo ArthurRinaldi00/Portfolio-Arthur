@@ -323,9 +323,9 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
 Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
 <img src="./imgs/tela funcionario.PNG" />
 
-## Soft Skill: 
+## Hard Skill: Metodologia Scrum, Front-end, Python.
 
-## Hard Skill: 
+## Soft Skill: 
 Como aprendizado efetivo é possivel destacar pontos como utilização de html como foi mostrado no tópico acima.
 Fora isso utilização foi possivel aprender sobre a manipulação de dados de excel dentro de um projeto, contando as linhas e colunas e depois salvando no banco de dados.
 
