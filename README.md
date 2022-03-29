@@ -372,7 +372,7 @@ Aqui segue a modelagem utilizada para o projeto.
 ```
 Nele é possivel notar o calculo por trás do score.
  
-## Soft Skill: 
+## Soft Skill: Java, Mysql, Modelagem de banco de dados
 
 ## Hard Skill:  
 Como aprendizado efetivo é possivel pontuar a criação do modelo do banco, nele nós ja tinhamos um dataset enviado pelo cliente e aproveitamos para adaptalo para o objetivo do projeto, além disso também foi um projeto onde foi possivel aprender muito sobre calculo dentro de um projeto e formas de manipular os dados que estão vindo  do banco.
@@ -464,11 +464,11 @@ db.vagas.insert(
 });
 ```
 ## Get de curriculo
-´´´python
-from Mongo_Connection import *
+```python
 import json
 import requests
 import urllib.request
+from Mongo_Connection import *
 
 class Finder:
 
@@ -485,14 +485,14 @@ class Finder:
             print("Database response...")
         return results
 
-´´´
+```
 
-###A
-https://gitlab.com/gurst6/projeto-integrador-pythaon/-/commit/587203905728107edd2ef9c974bae02d514e98aa
-´´´python
+### https://gitlab.com/gurst6/projeto-integrador-pythaon/-/commit/587203905728107edd2ef9c974bae02d514e98aa
+
+```python
+from Finder import *
 import pymongo
 from pymongo import MongoClient
-from Finder import *
 
 class Mongo_Connection:
 
@@ -512,10 +512,11 @@ class Mongo_Connection:
 
     def find_curriculos(self, requisitos):
         return self.collection.find({"nome": requisitos})
-´´´
+```
 
-###a
-´´´python
+
+### a
+```python
 from django.shortcuts import render
 from Finder import init, search
 import json
@@ -524,9 +525,7 @@ import urllib.request
 import pymongo
 from pymongo import MongoClient
 
-def home():
-        finder_instance = Finder()
-
+def home():finder_instance = Finder()
         myquery = { "nome": "arthur cardoso" }
         result = finder_instance.search(myquery)
 
@@ -537,9 +536,10 @@ def home():
             for jsn in result:
              print(jsn['_id'])
 
-´´´
 
-## Soft Skill: 
+```
+
+## Soft Skill: Python, mongo db, API Rest
 
 ## Hard Skill: 
 
