@@ -130,7 +130,11 @@ No gráfico existem 3 gráficos, variação de ações, média de volume por mê
 todos esses dados sendo retirados do banco de dados.
 
 
-## - Hard Skills: Python, Power bi, MySql, Scrum.
+## - Hard Skills:
+* Python
+* Power bi
+* MySql
+* Scrum
  
  ##  - Soft Skills: 
 Foi a introdução a metodologia agil introduzindo dailys, reuniões de planning e sprints.
@@ -147,12 +151,12 @@ Definimos nosso MVP (Minimum Viable Product) como sendo:
 > Permitir que o usuário cadastre todos os aspectos de seu ambiente de desenvolvimento (pessoas, projetos, tarefas) e permitir por meio de uma interface pratica e interativa (drag and drop) que o usuário consiga elaborar e analisar cenários referente ao planejamento de seus projetos e horas disponiveis de desenvolvimento.
 ## Tecnologias: 
 
-- Python 3.7 - Linguagem principal - Foi escolhida pelo fator de conhecimento do grupo sobre a linguagem.
-- frappe.io - biblioteca que foi utilizada para criação dos graficos na interface.
-- FrameWork Django 3 - interface WEB - Foi escolhido por ser o framework web de python mais  conhecido.
-- MySQL - Banco de Dados 
-- Conceitos do SCRUM - Norteador do Projeto 
-- Zen of Python - boas práticas para o Projeto  
+*  Python 3.7 - Linguagem principal - Foi escolhida pelo fator de conhecimento do grupo sobre a linguagem.
+*  frappe.io - biblioteca que foi utilizada para criação dos graficos na interface.
+*  FrameWork Django 3 - interface WEB - Foi escolhido por ser o framework web de python mais  conhecido.
+*  MySQL - Banco de Dados 
+*  Conceitos do SCRUM - Norteador do Projeto 
+*  Zen of Python - boas práticas para o Projeto  
 
 ## Contribuições individuais: 
 
@@ -390,11 +394,11 @@ aumentando a satisfação com alocações mais adequadas.
 Nossa proposta é desenvolver um sistema para a otimização e que facilite o processo de contratação de novos colaboradores , respeitando os requisitos, visando a rapidez e agilidade no processo. Para que esses objetivos sejam atingidos, utilizaremos uma um SGBD orientado a documentos (MongoDB), visando que as estruturas de currículos e vagas são maleáveis e se aproveitam bem da estrutura de documento usada, além de questões de desempenho e funcionalidades que podem ser aproveitadas. 
 
 ## Tecnologias: 
-Python 
-django
-mongo db
-postman
-Visual studio code
+* Python 
+* django
+* mongo db
+* postman
+* Visual studio code
 
 
 ## Contribuições individuais:
