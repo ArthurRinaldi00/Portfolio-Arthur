@@ -5,14 +5,14 @@ Estudante de Banco de Dados, escritor online e estas são minhas experiências n
 
 # Meus Projetos.
 
-# Em 2019-2
-## Descrição:
-trabalhei no projeto da API, no qual a propria instituição passou os requisitos de criar um webbot.
+## Em 2019-2
+### Descrição:
+No primeiro semestre como projeto do API, foi proposto o desenvolvimento de um web bot.
 O webotbot "black mamba" tinha como seu objetivo fazer a busca de variação de uma ação no mercado financeiro, afim de entregar ao usuario um momento oportuno para ser feita a compra.
 Para isso o bot irá capturar os dados em tempo real do valor de uma ação e comparar com os históricos de variações dessa mesma ação em outros períodos em conjunto com uma mapeamento das notícias que podem influenciar o valor da ação.
 O sistema também possuia uma interface vinculada ao power bi, para tornar de forma mais visivel para o usuario como anda a variação da ação e seu historico, alem disso também existia a opção de fazer login pelo telegram.
 
-## Tecnologias: 
+### Tecnologias: 
 
 * Python 3.7 - Foi escolhido como Linguagem principal pois tinha uma rapida evolução de aprendizado, e como sabiamos que seria necessario uma integração com graficos, a biblioteca "pandas" sairia como uma grande ajuda.
 * Zen of Python - Foi passado pelos alunos do 6 semestre para aprendermos mais sobre boas práticas para o Projeto;
@@ -27,9 +27,9 @@ O sistema também possuia uma interface vinculada ao power bi, para tornar de fo
     **Pandas / Matplotlib** - ferramentas para gerar e plotar graficos;  
     **Email / Telegram-bot** - envio de alertas e notificações;
     
- ##  - Contribuições individuais: 
+ ###  - Contribuições individuais: 
 
-### Tornando o arquivo "executavel.py" executavel.
+* Tornando o arquivo "executavel.py" executavel.
 ```python
 import sys
 from cx_Freeze import setup, Executable
@@ -57,7 +57,7 @@ setup(
 Para tornar o arquivo executavel foi utilizado a biblioteca "cx_Freeze".
 
 
-### Classificacao.py
+* Classificacao.py
 ```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -130,26 +130,27 @@ No gráfico existem 3 gráficos, variação de ações, média de volume por mê
 todos esses dados sendo retirados do banco de dados.
 
 
-## - Hard Skills:
+### - Hard Skills:
 * Python
 * Power bi
 * MySql
 * Scrum
  
- ##  - Soft Skills: 
+###  - Soft Skills: 
 Foi a introdução a metodologia agil introduzindo dailys, reuniões de planning e sprints.
 Fora isso também foi introduzido varias opções para o desenvolvimento, sendo elas utilizar python junto da biblioteca selenium.
 Outro grande aprendizado foi a utilização do power bi para interface, utilizando dessa ferramenta foi possivel poupar muito tempo de desenvolvimento pois os dados dos graficos eram pegos direto do banco.
 
-## 
-# Em 2020-1 
+ 
+## Em 2020-1 
 
-## Descrição
+### Descrição
 A proposta do projeto é criar uma interface que permita o usuário cadastrar todos os aspectos de seu ambiente de desenvolvimento (pessoas, projetos, tarefas) fazendo com que por meio de uma interface pratica e interativa o usuário consiga elaborar e analisar cenários referente ao planejamento de seu dia-a-dia, orquestrando pessoas, projetos e horas disponíveis de desenvolvimento para potencializar suas entregas.   
 Definimos nosso MVP (Minimum Viable Product) como sendo:  
 
 > Permitir que o usuário cadastre todos os aspectos de seu ambiente de desenvolvimento (pessoas, projetos, tarefas) e permitir por meio de uma interface pratica e interativa (drag and drop) que o usuário consiga elaborar e analisar cenários referente ao planejamento de seus projetos e horas disponiveis de desenvolvimento.
-## Tecnologias: 
+
+### Tecnologias: 
 
 *  Python 3.7 - Linguagem principal - Foi escolhida pelo fator de conhecimento do grupo sobre a linguagem.
 *  frappe.io - biblioteca que foi utilizada para criação dos graficos na interface.
@@ -158,9 +159,9 @@ Definimos nosso MVP (Minimum Viable Product) como sendo:
 *  Conceitos do SCRUM - Norteador do Projeto 
 *  Zen of Python - boas práticas para o Projeto  
 
-## Contribuições individuais: 
+### Contribuições individuais: 
 
-### extração do banco para salvar no excel
+* extração do banco para salvar no excel
 ``` python
 @login_required
 def import_excel(request):
@@ -209,7 +210,7 @@ def import_excel(request):
 Primeiro era feito o import do excel na variavel "imported_data", após isso abria a conexão com o banco atribuindo suas credenciais, feito isso existe um for com a varial "imported_data", dentro desse for existem 4 variaveis Nprojeto, DescTarefa, HoraTarefa, MinTarefa. essas variaveis recebiam o valor dos campos do excel atraves do data[numero da coluna].
 Após isso é feito a inserção do que foi retirado do excel ao banco.
 
-### Tela de Cadastro de Funcionarios.
+* Tela de Cadastro de Funcionarios.
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -327,23 +328,26 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
 Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
 <img src="./imgs/tela funcionario.PNG" />
 
-## Hard Skill: Metodologia Scrum, Front-end, Python.
+### Hard Skill: 
+* Metodologia Scrum
+* Front-end
+* Python
 
-## Soft Skill: 
+### Soft Skill: 
 Como aprendizado efetivo é possivel destacar pontos como utilização de html como foi mostrado no tópico acima.
 Fora isso utilização foi possivel aprender sobre a manipulação de dados de excel dentro de um projeto, contando as linhas e colunas e depois salvando no banco de dados.
 
 
-# Em 2020-2
+## Em 2020-2
 
-## Descrição:
+### Descrição:
 Score wizard foi uma aplicação criada com o intuito de ajudar de forma mais pratica e visual de checar sua pontuação de crédito dentro do spc.
 Para fazer o calculo do score de cada pessoa, é feita uma conta a partir de todos os dados de transação, empréstimo, financiamento e cartão de crédito da pessoa cadastrados no banco.
 Além de exibir a pontuação do score o projeto tambem possuia uma estrategia de gamificação das compras, onde o usuario recebia numero x de tarefas e após concluir elas ele recebe uma quantidade de "xp", atraves disso a ideia é fazer os compradores sempre manterem uma bom score e também de acessar a aplicação.
 Nela criamos uma interface onde o usuario pode fazer seu cadastro sendo ele um pessoa fisica com seu "cpf" ou pessoa juridica com seu "cnpj".
 
 
-## Tecnologias:  
+### Tecnologias:  
  * MySql Community - Banco utilizado por proximidade a plataforma. 
  * Java 1.8 - Java foi escolhido por ser requisito da intituição de ensino.
  * Spring 2.3.0 - Utilizada para gerenciamento dos dados e tambem para enviar as informaçoes processadas para a interface.
@@ -352,14 +356,14 @@ Nela criamos uma interface onde o usuario pode fazer seu cadastro sendo ele um p
  * JavaScript - Utilizado para montar a interface.
  * CSS - Utilizado para estilizar a interface.
     
- ##  - Contribuições individuais: 
+###  - Contribuições individuais: 
  
 ### Modelo do Banco
 
 <img src="./imgs/modelagem.png" />
 Aqui segue a modelagem utilizada para o projeto.
 
-### Calculo de score para pessoa fisica
+* Calculo de score para pessoa fisica
 ```java
   @GetMapping(path="/getPessoaFisicaNewScore")
     public @ResponseBody int getPessoaFisicaNewScore(@RequestParam String documento, @RequestParam ArrayList<Integer> movimentosId) {
@@ -376,24 +380,27 @@ Aqui segue a modelagem utilizada para o projeto.
 ```
 Nele é possivel notar o calculo por trás do score.
  
-## Soft Skill: Java, Mysql, Modelagem de banco de dados
+### Hard Skill: 
+* Java
+* Mysql
+* Modelagem de banco de dados
 
-## Hard Skill:  
+### Soft Skill:  
 Como aprendizado efetivo é possivel pontuar a criação do modelo do banco, nele nós ja tinhamos um dataset enviado pelo cliente e aproveitamos para adaptalo para o objetivo do projeto, além disso também foi um projeto onde foi possivel aprender muito sobre calculo dentro de um projeto e formas de manipular os dados que estão vindo  do banco.
 
 
-# Em 2021-1
+## Em 2021-1
 
-## Descrição: 
+### Descrição: 
 O setor de RH precisa de uma solução parametrizável que combine diversos critérios, para
 busca de candidatos em diferentes vagas com diferentes recrutadores numa proposta de
 processo eficiente para contratação e evasão de funcionários, reduzindo custos e
 aumentando a satisfação com alocações mais adequadas.
 
-## Proposta do projeto
+### Proposta do projeto
 Nossa proposta é desenvolver um sistema para a otimização e que facilite o processo de contratação de novos colaboradores , respeitando os requisitos, visando a rapidez e agilidade no processo. Para que esses objetivos sejam atingidos, utilizaremos uma um SGBD orientado a documentos (MongoDB), visando que as estruturas de currículos e vagas são maleáveis e se aproveitam bem da estrutura de documento usada, além de questões de desempenho e funcionalidades que podem ser aproveitadas. 
 
-## Tecnologias: 
+### Tecnologias: 
 * Python 
 * django
 * mongo db
@@ -401,7 +408,8 @@ Nossa proposta é desenvolver um sistema para a otimização e que facilite o pr
 * Visual studio code
 
 
-## Contribuições individuais:
+### Contribuições individuais:
+* Modelo de documento do banco
 ```mongodb
 db.Inscrito.insert(
 {
@@ -467,7 +475,8 @@ db.vagas.insert(
     ],
 });
 ```
-## Get de curriculo
+
+* Get de curriculo
 ```python
 import json
 import requests
@@ -491,74 +500,33 @@ class Finder:
 
 ```
 
-### https://gitlab.com/gurst6/projeto-integrador-pythaon/-/commit/587203905728107edd2ef9c974bae02d514e98aa
+### Hard Skill: 
+ * Python
+ * mongo db
+ * API Rest
 
-```python
-from Finder import *
-import pymongo
-from pymongo import MongoClient
+### Soft Skill: 
 
-class Mongo_Connection:
+## Em 2021-2
 
-    db_instance = None
-    collection = None
-
-    def init(self):
-        self.db_instance = self.create_connection()
-        self.collection = self.get_collection()
-
-    def create_connection(self):
-        return pymongo.MongoClient(
-            "mongodb+srv://dbUser:system@cluster0.5hlez.mongodb.net/Finder?retryWrites=true&w=majority")
-
-    def get_collection(self):
-        return self.db_instance.Finder.curriculo
-
-    def find_curriculos(self, requisitos):
-        return self.collection.find({"nome": requisitos})
-```
+### Tecnologias Utilizadas
+* Sql
+* Java
+* Power Bi
+### Contribuições Pessoais:
 
 
-### a
-```python
-from django.shortcuts import render
-from Finder import init, search
-import json
-import requests
-import urllib.request
-import pymongo
-from pymongo import MongoClient
-
-def home():finder_instance = Finder()
-        myquery = { "nome": "arthur cardoso" }
-        result = finder_instance.search(myquery)
-
-        if result.count() == 0:
-           print("Nenhum curriculo encontrado...")
-
-        else:
-            for jsn in result:
-             print(jsn['_id'])
-
-
-```
-
-## Soft Skill: Python, mongo db, API Rest
-
-## Hard Skill: 
-
-# Em 2021-2
-
-## Tecnologias Utilizadas
-## Contribuições Pessoais
-## Hard Skills
-## Soft Skills
+### Hard Skills
+* ETL
+* Power Bi
+* 
+### Soft Skills
 
 
 
-# Em 2022-1
+## Em 2022-1
 
-## Tecnologias Utilizadas
-## Contribuições Pessoais
-## Hard Skills
-## Soft Skills
+### Tecnologias Utilizadas
+### Contribuições Pessoais
+### Hard Skills
+### Soft Skills
