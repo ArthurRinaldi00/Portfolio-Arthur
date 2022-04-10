@@ -137,9 +137,9 @@ todos esses dados sendo retirados do banco de dados.
 * Scrum
  
 ###  - Soft Skills: 
-Foi a introdução a metodologia agil introduzindo dailys, reuniões de planning e sprints.
-Fora isso também foi introduzido varias opções para o desenvolvimento, sendo elas utilizar python junto da biblioteca selenium.
-Outro grande aprendizado foi a utilização do power bi para interface, utilizando dessa ferramenta foi possivel poupar muito tempo de desenvolvimento pois os dados dos graficos eram pegos direto do banco.
+*  Proatividade
+*  Autonomia
+*  Organização
 
  
 ## Em 2020-1 
@@ -334,8 +334,9 @@ Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto
 * Python
 
 ### Soft Skill: 
-Como aprendizado efetivo é possivel destacar pontos como utilização de html como foi mostrado no tópico acima.
-Fora isso utilização foi possivel aprender sobre a manipulação de dados de excel dentro de um projeto, contando as linhas e colunas e depois salvando no banco de dados.
+*  Proatividade
+*  Autonomia
+*  Organização
 
 
 ## Em 2020-2
@@ -476,7 +477,7 @@ db.vagas.insert(
 });
 ```
 
-* Get de curriculo
+* Função utilizada para pegar os curriculos
 ```python
 import json
 import requests
@@ -506,6 +507,9 @@ class Finder:
  * API Rest
 
 ### Soft Skill: 
+*  Proatividade
+*  Autonomia
+*  Organização
 
 ## Em 2021-2
 
@@ -521,7 +525,9 @@ class Finder:
 * Power Bi
 * 
 ### Soft Skills
-
+*  Proatividade
+*  Autonomia
+*  Organização
 
 
 ## Em 2022-1
@@ -530,3 +536,6 @@ class Finder:
 ### Contribuições Pessoais
 ### Hard Skills
 ### Soft Skills
+*  Proatividade
+*  Autonomia
+*  Organização
