@@ -325,7 +325,7 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
   </body>
 </html>
 ```
-Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
+* Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
 <img src="./imgs/tela funcionario.png" />
 ### Hard Skill: 
 * Metodologia Scrum
@@ -396,8 +396,6 @@ O setor de RH precisa de uma solução parametrizável que combine diversos crit
 busca de candidatos em diferentes vagas com diferentes recrutadores numa proposta de
 processo eficiente para contratação e evasão de funcionários, reduzindo custos e
 aumentando a satisfação com alocações mais adequadas.
-
-### Proposta do projeto
 Nossa proposta é desenvolver um sistema para a otimização e que facilite o processo de contratação de novos colaboradores , respeitando os requisitos, visando a rapidez e agilidade no processo. Para que esses objetivos sejam atingidos, utilizaremos uma um SGBD orientado a documentos (MongoDB), visando que as estruturas de currículos e vagas são maleáveis e se aproveitam bem da estrutura de documento usada, além de questões de desempenho e funcionalidades que podem ser aproveitadas. 
 
 ### Tecnologias: 
