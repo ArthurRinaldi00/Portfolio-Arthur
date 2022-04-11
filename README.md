@@ -326,8 +326,7 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
 </html>
 ```
 Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
-<img src="./imgs/tela funcionario.PNG" />
-
+<img src="./imgs/tela funcionario.png" />
 ### Hard Skill: 
 * Metodologia Scrum
 * Front-end
