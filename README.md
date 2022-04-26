@@ -509,6 +509,8 @@ class Finder:
 *  Organização
 
 ## Em 2021-2
+Neste semestre o problema proposto foi desenvolver uma solução de dados voltada ao ensino a distância para a gestão e oferta do conhecimento, sendo apto a prover suporte às mais variadas arquiteturas de aprendizagem, alinhado com os objetivos estratégicos a serem alcançados pelas organizações que atendermos
+como clientes.
 
 ### Tecnologias Utilizadas
 * Sql
