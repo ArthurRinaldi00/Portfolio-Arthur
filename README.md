@@ -519,7 +519,7 @@ como clientes.
 * Docker
 
 ### Contribuições Pessoais:
-
+<img src="./imgs/bi Pythaoff.png" />
 
 ### Hard Skills
 * ETL
