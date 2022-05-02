@@ -510,6 +510,9 @@ class Finder:
 ## Em 2021-2
 Neste semestre o problema proposto foi desenvolver uma solução de dados voltada ao ensino a distância para a gestão e oferta do conhecimento, sendo apto a prover suporte às mais variadas arquiteturas de aprendizagem, alinhado com os objetivos estratégicos a serem alcançados pelas organizações que atendermos
 como clientes.
+Foi necessario ajustar o banco de dados, pensando em um grande processamento de dados com ganho de escalabilidade e
+integração contínua entre os ambientes. Adicionar na solução atual um banco de dados não relacional para armazenar os chats e os logs.
+Deve ser desenvolvido um pipeline de dados e analytics, a fim de manter um DW e um modelo OLAP para visualização e análise de dados.
 
 
 ### Tecnologias Utilizadas
@@ -519,7 +522,10 @@ como clientes.
 * Docker
 
 ### Contribuições Pessoais:
+
+* Interface entregada ao cliente
 <img src="./imgs/bi Pythaoff.png" />
+Para a entrega dos dados ao cliente, foi escolhido Power bi, visto que era uma ferramenta que o grupo ja tinha uma familiaridade, com essa ferramenta foi possivel puxar os dados direto do banco de dados, assim ficava mais facil para pegar os dados e fazer o calculo dos graficos direto na plataforma.
 
 ### Hard Skills
 * ETL
