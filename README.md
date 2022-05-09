@@ -211,121 +211,6 @@ Primeiro era feito o import do excel na variavel "imported_data", após isso abr
 Após isso é feito a inserção do que foi retirado do excel ao banco.
 
 * Tela de Cadastro de Funcionarios.
-```html
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Funcionarios</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,  shrink-to-fit=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  </head>
-  <body class="body">
-    <div class="bg-dark">
-      <img src="img/logonectobranco.svg" class="img-fluid mt-2 ml-2 pb-2" alt="logo Necto" style="width: 160px; height: 80;">
-      <div class="btn-group float-right pt-1 mr-3">
-        <button type="button" class="btn btn-secondary dropdown-toggle btnrounded mt-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Nome
-        </button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Alterar</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="index.html">Sair</a>
-        </div>
-      </div>
-      <a href="projetos.html" class="btn btn-secondary ml-5 tamanho">Projetos</a>
-      <a href="funcionarios.html" class="btn btn-secondary tamanho ml-5">Funcionários</a>
-      <a href="tarefas.html" class="btn btn-secondary tamanho ml-5">Tarefas</a>
-    </div>
-   
-    <div class="container">
-
-      <br />
-      <h2>Cadastro de Funcionarios</h2>
-      <hr /><br />
-
-      <form>
-  
-        <div class="form-group">
-
-          <label class="col-sm-2" for="Nome" style="float:left; margin-left: 50px;">Nome</label>
-          <input class="col-sm-8" class="form-control" style="float:right; margin-right: 65px;" id="Nome">
-          <br />
-          <br />
-
-          <label class="col-sm-2" style="margin-left: 50px;" for="duracao">Carga Horaria</label>
-          <input class="col-sm-8" class="form-control" style="float:right; margin-right: 65px;" id="Horas">
-          <br />
-          <br />
-          <button style="float:right; margin-right: 65px; " class="btn btn-secondary btn-sm mb-9" type="submit">Importar do Excel</button>
-          <button style="float:right; margin-right: 30px; " class="btn btn-secondary btn-sm mb-9" type="submit">Cadastrar</button>
-          <br />
-          <br />
-          <br />
-
-          <div class="row justify-content-md-center">
-            <div class="col col-sm-4">
-              <select class="col-sm-9" style="float:right; padding-bottom: 0.5%; margin-right: 25px;" class="form-control" id="nomeProjeto">
-                <option>Nome do Projeto</option>
-                <option>Projeto 2</option>
-                <option>Projeto 3</option>
-              </select>
-            </div>
-            <div class="col-sm-6">
-             <input class="col-sm-12" class="form-control" style="float:left;" placeholder="Carga Horaria" id="Carga Horaria">
-            </div>
-            <div class="col col-sm-2">
-              <button type="submit" class="btn btn-secondary btn-sm mb-9" style="float:right; margin-right: 65px;">Filtrar</button>
-            </div>
-          </div>
-
-        </div>
-
-      </form>
-
-      <div class="col-md-11">
-        <table class="table table-bordered" style="margin-left: 45px;">
-          <thead class="thead">
-            <tr>
-              <th width="30" scope="col">Nome do Funcionario</th>
-              <th width="30" scope="col">Carga Horaria</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-    </div>
-
-    
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
-```
-* Acima existe toda a tela de cadastro de funcionario que foi utilizado no projeto.
 <img src="./imgs/tela funcionario.png" />
 ### Hard Skill: 
 * Metodologia Scrum
@@ -538,10 +423,21 @@ Para a entrega dos dados ao cliente, foi escolhido Power bi, visto que era uma f
 
 
 ## Em 2022-1
+A matéria de Topicos avançados de banco de dados, com a proposta de solucionar um problema relacionado a LGPD.
+Para solucionar o problema foi proposto foi particionar uma tabela de venda onde era separado os dados da venda e do cliente, sendo assim possivel apagar os dados do cliente sem precisar apagar a venda.
 
 ### Tecnologias Utilizadas
+* Pyhton 
+* Mongo DB
+
 ### Contribuições Pessoais
+
+
 ### Hard Skills
+* Particionamento de Banco de dados
+* Mongo DB
+* Python
+
 ### Soft Skills
 *  Proatividade
 *  Autonomia
