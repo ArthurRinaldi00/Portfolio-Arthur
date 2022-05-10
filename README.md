@@ -471,6 +471,10 @@ Neste projeto também foram desenvolvidos
             collectionVendaSimples.insert_one(requestVendaSimples)
         return HTTPResponse("Tabela Particionada") 
 ```
+O código acima demonstra como foi feita o particionamento do projeto, inicialmente ele pega os dados na tabela de venda e dividi os dados dela em outras 2 tabelas, sendo uma tabela com os dados da venda e o outro com os dados do cliente. Assim sera possivel apagar os dados do cliente quando necessario, sem precisar apagar os dados da venda.
+
+* Tabelas particionadas.
+<img src="./imgs/Tabelas topicos avancados.png" />
 
 ### Hard Skills
 * Particionamento de Banco de dados
