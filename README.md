@@ -405,6 +405,7 @@ Deve ser desenvolvido um pipeline de dados e analytics, a fim de manter um DW e 
 * Java
 * Power Bi
 * Docker
+* Pentaho
 
 ### Contribuições Pessoais:
 
@@ -431,7 +432,44 @@ Para solucionar o problema foi proposto foi particionar uma tabela de venda onde
 * Mongo DB
 
 ### Contribuições Pessoais
+* Função para particionar a tabela de vendas:
+```python
+    def Split_Sale():
+        cluster = Model.createConnectionDB()
+        db = cluster['TopicosAvançados']
+        collectionVenda = db['Vendas']
+        VendasSeparadas = []
+        VendasSeparadas = collectionVenda.find({})
+        collectionCli = db['Cliente']
+        collectionVendaSimples = db['VendaSimples']
+        for dado in VendasSeparadas:
+            id = dado['_id']
+            produto = dado['produto_venda']
+            valor = dado['valor_venda']
+            qtd = dado['qtd_venda']
+            id_cli = uuid.uuid4().hex
+            name = dado['nome_cli']
+            telefone = dado['telefone_cli']
+            email = dado['email_cli']
+            cpf = dado['cpf_cli']
+            idChave = dado['id_chave']
 
+            requestCli = { "id": id_cli,
+                    "nome_cli":name,
+                    "telefone_cli": telefone, 
+                    "email_cli": email, 
+                    "cpf_cli": cpf,
+                    "id_chave": idChave}
+            collectionCli.insert_one(requestCli)
+
+            requestVendaSimples = {"_id":id,
+                    "produto_venda": produto, 
+                    "valor_venda": valor, 
+                    "qtd_venda": qtd,
+                   "idCli": id_cli}
+            collectionVendaSimples.insert_one(requestVendaSimples)
+        return HTTPResponse("Tabela Particionada") 
+```
 
 ### Hard Skills
 * Particionamento de Banco de dados
