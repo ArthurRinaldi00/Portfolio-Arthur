@@ -426,6 +426,7 @@ Para a entrega dos dados ao cliente, foi escolhido Power bi, visto que era uma f
 ## Em 2022-1
 A matéria de Topicos avançados de banco de dados, com a proposta de solucionar um problema relacionado a LGPD.
 Para solucionar o problema foi proposto foi particionar uma tabela de venda onde era separado os dados da venda e do cliente, sendo assim possivel apagar os dados do cliente sem precisar apagar a venda.
+Neste projeto também foram desenvolvidos 
 
 ### Tecnologias Utilizadas
 * Pyhton 
