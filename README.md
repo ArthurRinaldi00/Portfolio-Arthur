@@ -212,6 +212,7 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
 
 * Tela de Cadastro de Funcionarios.
 <img src="./imgs/tela funcionario.png" />
+
 ### Hard Skill: 
 * Metodologia Scrum
 * Front-end
