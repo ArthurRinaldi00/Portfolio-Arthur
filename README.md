@@ -285,80 +285,16 @@ aumentando a satisfação com alocações mais adequadas.
 Nossa proposta é desenvolver um sistema para a otimização e que facilite o processo de contratação de novos colaboradores , respeitando os requisitos, visando a rapidez e agilidade no processo. Para que esses objetivos sejam atingidos, utilizaremos uma um SGBD orientado a documentos (MongoDB), visando que as estruturas de currículos e vagas são maleáveis e se aproveitam bem da estrutura de documento usada, além de questões de desempenho e funcionalidades que podem ser aproveitadas. 
 
 ### Tecnologias: 
-* Python 
-* django
-* mongo db
-* postman
-* Visual studio code
+* Python - Linguagem de programação utilizada para o nosso back-end.
+* django - Framework utilizado para o projeto.
+* mongo db - Banco NoSql orientado a documentos que foi utilizado para armazenar os curriculos e as vagas disponiveis.
+* Visual studio code - IDE utilizada para o desenvolvimento do projeto.
 
 
 ### Contribuições individuais:
-* Modelo de documento do banco
-```mongodb
-db.Inscrito.insert(
-{
-    "InscritoIdExterno":"1",
-    "rgInscrito":"123.123.123-12",
-    "dataNascimentoInscrito":"25/09/2000",
-    "sexoInscrito":"masculino",
-    "telefoneCelularInscrito":"(12)9816719999",
-    "jornadaDesejadaInscrito":"padrão",
-    "tipoContratoDesejadoInscrito":"clt",
-    "EmailInscrito":"email@email.com",
-    "perfilProfissionalTituloInscrito":"full stack developer",
-    "perfilProfissionalDescricaoInscrito":"pleno com conhecimento em desenvolvimento full stack com node, dotnet, angular e react",
-    "nomeCompletoInscrito":"arthur c",
-    "enderecoCEPInscrito":"12235-608",
-    "enderecoLocalizacaoInscrito":"rua, bairro",
-    "complementoInscrito":"",
-    "enderecoLocalizacaoLatitudeInscrito":"",
-    "enderecoLocalizacaoLongitudeInscrito":"",
-    "experienciaProfissional": [
-        {
-         "descricao": "Desenvolvimento com front e back end",
-         "duracaoTempoExperiencia":"2 anos",
-         }
-      ],
-      "competencia": [
-        {
-         "descricao": "poliglota",
-        }
-      ],
-    "formacao": [
-        {
-            "curso":"banco de dados",
-            "Dataformacao":"22/06/2020",
-            "intituicao":"fatec"
-        }
-      ],
-});
-db.vagas.insert(
-{
-    "VagaIdExterno":"1",
-    "tituloVaga":"desc da vaga",
-    "tipoContratacaoPerfilVaga":"clt",
-    "tipoJornadaPerfilVaga":"liberal",
-    "localEnderecoCEPPerfilVaga":"12235-600",
-    "localEnderecoPerfilVaga":"rua, bairro",
-    "localEnderecoNumeroPerfilVaga":"1234",
-    "faixaEtariaInicioPerfilVaga":"21",
-    "faixaEtariaFimPerfilVaga":"35",
-    "tempoExperienciaPerfilVaga":"2 anos",
-    "faixaSalarioInicioPerfilVaga":"2500.00",
-    "dataInicioDivulgacaoPerfilVaga":"01/1/2021",
-    "datafinaldivulgacaoPerfilVaga":"31/01/2021",
-    "competencia": [
-        {
-         "descricao": "poliglota",
-        }
-    ],
-     "PalavraChave" :[
-         {
-            "DescricaoPalavraChave":"Chave",
-         }
-    ],
-});
-```
+* Criação e Gerenciamento do Mongo
+Para o desenvolvimento do projeto foi necessário subir o banco em um cluster para todo o time ter disponibilidade e compartilhamento dos dados salvos, foi utilizado o próprio serviço do atlas cedido gratuitamente pelo mongo para aplicações menores. 
+O mongo foi escolhido como banco para este projeto primeiramente por ser a primeira experiencia de uma banco NoSql para muitos integrantes do grupo, mas também foi escolhido pelo grupo por propor varias ferramentas como o VT0 que servia para fazer a abstenção de pagamento de vale transporte quando a distância percorrida pelo trabalhador até o trabalho é menor do que 1km.
 
 * Função utilizada para pegar os curriculos
 ```python
@@ -382,6 +318,7 @@ class Finder:
             print("Database response...")
         return results
 ```
+Esse trecho do código foi utilizado para o inicio do projeto, sendo o primeiro teste para ver como o mongo retornava um curriculo.
 
 ### Hard Skill: 
  * Python
