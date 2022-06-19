@@ -1,7 +1,7 @@
 ### Arthur Cardoso Rinaldi da Silva
 
-# Ola sou Arthur
-Estudante de Banco de Dados, escritor online e estas são minhas experiências na Fatec de Sâo José dos Campos.
+# Sobre mim
+Estudante de Banco de Dados na Fatec de São José dos Campos, formado em técnico de informática pela ETEP.
 
 # Meus Projetos.
 
@@ -292,7 +292,8 @@ Nossa proposta é desenvolver um sistema para a otimização e que facilite o pr
 
 
 ### Contribuições individuais:
-* Criação e Gerenciamento do Mongo
+* Criação e Gerenciamento do Mongo.
+
 Para o desenvolvimento do projeto foi necessário subir o banco em um cluster para todo o time ter disponibilidade e compartilhamento dos dados salvos, foi utilizado o próprio serviço do atlas cedido gratuitamente pelo mongo para aplicações menores. 
 O mongo foi escolhido como banco para este projeto primeiramente por ser a primeira experiencia de uma banco NoSql para muitos integrantes do grupo, mas também foi escolhido pelo grupo por propor varias ferramentas como o VT0 que servia para fazer a abstenção de pagamento de vale transporte quando a distância percorrida pelo trabalhador até o trabalho é menor do que 1km.
 
