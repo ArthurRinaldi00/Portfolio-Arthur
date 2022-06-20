@@ -29,34 +29,6 @@ O sistema também possuia uma interface vinculada ao power bi, para tornar de fo
     
  ###  - Contribuições individuais: 
 
-* Tornando o arquivo "executavel.py" executavel.
-```python
-import sys
-from cx_Freeze import setup, Executable
-import Classificacao
-base = None
-if sys.platform == "win64":
-    base = "Win64GUI"
-Executables = [
-    Executable("Classificacao.py", base=base)
-]
-buildOptions = dict(
-    packages = [],
-    includes = ["Classificacao"],
-    include_files = [],
-    excludes = []
-)
-setup(
-    name = "Classificacao",
-    version="1.0",
-    description = "Espero que funcione",
-    options = dict(build_exe = buildOptions),
-    Executables = Executables
-)
-```
-Para tornar o arquivo executavel foi utilizado a biblioteca "cx_Freeze".
-
-
 * Classificacao.py
 ```python
 from selenium import webdriver
@@ -212,6 +184,7 @@ Após isso é feito a inserção do que foi retirado do excel ao banco.
 
 * Tela de Cadastro de Funcionarios.
 <img src="./imgs/tela funcionario.png" />
+Nesse projeto eu tive a oportunidade de trabalhar no front-end, ampliando os meus conhecimentos com html, css e js.
 
 ### Hard Skill: 
 * Metodologia Scrum
@@ -264,7 +237,7 @@ Aqui segue a modelagem utilizada para o projeto.
         return score.intValue();
     }
 ```
-Nele é possivel notar o calculo por trás do score.
+Nele é possivel notar o calculo por trás do score, .
  
 ### Hard Skill: 
 * Java
@@ -364,8 +337,8 @@ Para a entrega dos dados ao cliente, foi escolhido Power bi, visto que era uma f
 
 ## Em 2022-1
 A matéria de Topicos avançados de banco de dados, com a proposta de solucionar um problema relacionado a LGPD.
-Para solucionar o problema foi proposto foi particionar uma tabela de venda onde era separado os dados da venda e do cliente, sendo assim possivel apagar os dados do cliente sem precisar apagar a venda.
-Neste projeto também foram desenvolvidos 
+Para solucionar o problema foi proposto particionar uma tabela de venda onde era separado os dados da venda e do cliente, sendo assim possivel apagar os dados do cliente sem precisar apagar a venda.
+Neste projeto também foram desenvolvidos criptografia e portabilidade de dados.
 
 ### Tecnologias Utilizadas
 * Pyhton 
@@ -411,6 +384,7 @@ Neste projeto também foram desenvolvidos
         return HTTPResponse("Tabela Particionada") 
 ```
 O código acima demonstra como foi feita o particionamento do projeto, inicialmente ele pega os dados na tabela de venda e dividi os dados dela em outras 2 tabelas, sendo uma tabela com os dados da venda e o outro com os dados do cliente. Assim sera possivel apagar os dados do cliente quando necessario, sem precisar apagar os dados da venda.
+Essa solução foi importante para demonstrar uma forma de solução para quando é necessária a exclusão dos dados do cliente sem afetar o historico da venda.
 
 * Tabelas particionadas.
 <img src="./imgs/Tabelas topicos avancados.png" />
