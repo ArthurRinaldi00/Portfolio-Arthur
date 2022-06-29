@@ -2,6 +2,7 @@
 
 # Sobre mim
 Estudante de Banco de Dados na Fatec de São José dos Campos, formado em técnico de informática pela ETEP.
+Atuei em 2019 eu fiz o estagio do técnico como desenvolvedor full-stack na Trentim e em 2020 eu fiz o estagio da faculdade na GSW, onde pude aprimorar minhas habilidades também como full-stack, além ASP.NET e angular também pude mexer com ferramentas de sgdb como sql server e sql developer e usar ferramentas como docker e dev-ops.
 
 # Meus Projetos.
 
@@ -101,7 +102,6 @@ Aqui segue uma amostra da interface usada no projeto, nela é possivel filtrar o
 No gráfico existem 3 gráficos, variação de ações, média de volume por mês e média de valor mensal por ano.
 todos esses dados sendo retirados do banco de dados.
 
-
 ### - Hard Skills:
 * Python
 * Power bi
@@ -109,9 +109,8 @@ todos esses dados sendo retirados do banco de dados.
 * Scrum
  
 ###  - Soft Skills: 
-*  Proatividade
-*  Autonomia
-*  Organização
+*  Adaptação: Foi a introdução ao modelo agile, sendo necessario de adaptar as novidades providas por ele.
+*  Confiança: Nesse projeto o scrum master e o project owner eram alunos do 6 semestre, sendo posto a eles a reponsabilidade de guiar os alunos do primeiro as entregas.
 
  
 ## Em 2020-1 
@@ -192,10 +191,8 @@ Nesse projeto eu tive a oportunidade de trabalhar no front-end, ampliando os meu
 * Python
 
 ### Soft Skill: 
-*  Proatividade
-*  Autonomia
-*  Organização
-
+* Comunicação: Devido ao inicio da pandemia, o grupo sofreu um pouco com falta de comunicação no começo, porem depois superou essa adversidade alcançando o objetivo de concluir o projeto.
+*  Organização: Para distribuir as tarefas no grupo e evitar que ninguem fique sem nada para fazer ou sem quem auxiliar.
 
 ## Em 2020-2
 
@@ -300,9 +297,7 @@ Esse trecho do código foi utilizado para o inicio do projeto, sendo o primeiro 
  * API Rest
 
 ### Soft Skill: 
-*  Proatividade
-*  Autonomia
-*  Organização
+*  Aprendizado: Utilizamos um banco NoSql que por muitos no grupo era desconhecido, mas mesmo com esse detalhe, o objetivo foi alcançado com sucesso.
 
 ## Em 2021-2
 Neste semestre o problema proposto foi desenvolver uma solução de dados voltada ao ensino a distância para a gestão e oferta do conhecimento, sendo apto a prover suporte às mais variadas arquiteturas de aprendizagem, alinhado com os objetivos estratégicos a serem alcançados pelas organizações que atendermos
@@ -330,9 +325,8 @@ Para a entrega dos dados ao cliente, foi escolhido Power bi, visto que era uma f
 * Power Bi
 
 ### Soft Skills
-*  Proatividade
-*  Autonomia
-*  Organização
+*  Flexibilidade: Foi necessario fazer as alterações na interface gráfica ate a versão final no power bi.
+*  Organização: Dividir as tarefas do power bi entre todos os integrantes envolvidos.
 
 
 ## Em 2022-1
@@ -395,6 +389,7 @@ Essa solução foi importante para demonstrar uma forma de solução para quando
 * Python
 
 ### Soft Skills
-*  Proatividade
-*  Autonomia
-*  Organização
+*  Reutilizar conhecimentos: Para alcançar o particionamento foi necessario retornar a materia do 5 semestre de particioanemnto de banco de dados.
+*  Proatividade: Sendo necessário tomar iniciativa para escolher o tema e programar afim de solucionar ele.
+*  Autonomia: Mesmo o trabalho sendo em grupo, cada aluno ficou responsavel pela sua propria solução.
+*  Criatividade: Criatividade foi necessária para tirar um problema da LGPD e propor uma solução a ela.
